@@ -7,7 +7,7 @@
   <body>
     <h2>Produtos</h2>
     <!-- table para criar uma tabela -->
-    <table border="2">
+    <table border="2" width="400px">
       <!-- tr table row ou linha da tabela  -->
       <tr>
         <!-- th table header -->
@@ -35,6 +35,24 @@
         <td>004</td>
         <td>Monitor</td>
         <td>R$1.499,80</td>
+      </tr>
+      <tr>
+        <td>005</td>
+        <td>Manu</td>
+        <td>R$1000,00</td>
+      </tr>
+      <tr>
+        <!-- rowspan serve para ocupar mais células de linha -->
+        <td rowspan="2">Descontos</td>
+        <!-- colspan serve para ocupar mais células dentro de uma tabela -->
+        <td colspan="2" align="center">Desconto de R$10</td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">Desconto de R$5</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td colspan="2" align="center">R$#####</td>
       </tr>
     </table>
   </body>
