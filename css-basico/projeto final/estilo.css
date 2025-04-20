@@ -1,0 +1,47 @@
+body {
+  background-image: url(src/fundo.png);
+  background-repeat: repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+  width: 900px;
+}
+
+#menu {
+  background-color: rgb(192, 184, 184);
+  padding: 35px;
+  padding-left: 10px;
+}
+
+#conteudo {
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+#rodape {
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+#contato {
+    padding-top: 10px;
+}
+
+.imagem-campanha {
+  border: 10px solid rgb(140, 140, 140);
+}
+
+a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(50, 59, 83);
+  padding: 5px;
+}
+
+h2 {
+  color: rgb(73, 73, 90);
+  font-size: 19px;
+}
