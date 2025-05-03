@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Elementos flutuantes na prática</title>
+    
+    <style>
+      body {
+        background-color: #f4f4f4;
+      }
+      #principal {
+        width: 920px;
+        /* border: 1px solid red; */
+      }
+
+      .noticia {
+        background-color: #e5e5e5;
+        padding: 6px;
+        margin: 7px;
+        width: 280px;
+        float: left;
+      }
+
+      .imagem-galeria {
+        background-color: white;
+        width: 265px;
+        margin: 13px;
+        float: left;
+      }
+
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div para definir o tamanho de todo o programa -->
+    <div id="principal">
+      <!-- div responsável por formatar as noticias -->
+      <div>
+        <!-- noticia 1 -->
+        <div class="noticia">
+          <h2>Noticias 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In tempus placerat orci vitae dictum. Nulla sodales turpis
+          </p>
+          <a href="">Veja mais</a>
+        </div>
+        <!-- noticia 2 -->
+        <div class="noticia">
+          <h2>Noticias 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In tempus placerat orci vitae dictum. Nulla sodales turpis
+          </p>
+          <a href="">Veja mais</a>
+        </div>
+        <!-- noticia 3 -->
+        <div class="noticia">
+          <h2>Noticias 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In tempus placerat orci vitae dictum. Nulla sodales turpis
+          </p>
+          <a href="">Veja mais</a>
+        </div>
+        <!-- fim da div das noticias -->
+      </div> 
+
+      <!-- limpando o fluxo do programa -->
+      <div class="clear"></div>
+
+      <!-- abertura da div para a galeria de fotos -->
+      <div>
+        <!-- primeira imagem da galeria -->
+        <div class="imagem-galeria">
+          <img src="src/galeria de fotos/imagem1.png" alt="">
+          <p>Resumo</p>
+        </div>
+        <!-- segunda imagem da galeria -->
+        <div class="imagem-galeria">
+          <img src="src/galeria de fotos/imagem2.png" alt="">
+          <p>Resumo</p>
+        </div>
+        <!-- terceira imagem da galeria -->
+        <div class="imagem-galeria">
+          <img src="src/galeria de fotos/imagem3.png" alt="">
+          <p>Resumo</p>
+        </div>
+        <!-- quarta imagem da galeria -->
+        <div class="imagem-galeria">
+          <img src="src/galeria de fotos/imagem4.png" alt="">
+          <p>Resumo</p>
+        </div>
+        <!-- quinta imagem da galeira -->
+        <div class="imagem-galeria">
+          <img src="src/galeria de fotos/imagem5.png" alt="">
+          <p>Resumo</p>
+        </div>
+      </div>
+
+
+      <!-- limpar o fluxo de dentro da galeria -->
+       <div class="clear"></div>
+      <!-- fim da div principal -->
+    </div>
+  </body>
+</html>
