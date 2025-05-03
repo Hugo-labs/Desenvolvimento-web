@@ -14,6 +14,7 @@
         width: 800px;
         margin: 10px auto;
         padding: 10px;
+        position: relative;
       }
       /* por padrão os posicionamentos já vem como estático */
       h1 {
@@ -24,6 +25,24 @@
         width: 300px;
       }
 
+      /* o posicionamento absolute, acompanha a rolagem da página, e é alinhado com base a na posição do container pai, e o que for definido como absolute, se torna uma caixa, que sai do fluxo original da página */
+      .absolute {
+        border: 1px solid red;
+        position: absolute;
+        background-color: pink;
+        top: 80px;
+        right: 20px;
+      }
+
+      /*  */
+      .fixed {
+        border: 1px solid red;
+        background-color: rgb(181, 177, 177);
+        position: fixed;
+        right: 400px;
+      }
+
+      /* o posicionamento relativo, alinha com base na posição inicial */
       .relative {
         border: 1px solid red;
         position: relative;
@@ -38,8 +57,9 @@
     <div id="container">
       <h1>Posicionamentos</h1>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>
-      <p class="relative">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>
+      <p class="fixed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt minus praesentium esse magnam non, enim sit unde sint explicabo quis voluptas voluptates quos ipsam. Sed laborum neque facilis cupiditate?</p>
     </div>
   </body>
 </html>
