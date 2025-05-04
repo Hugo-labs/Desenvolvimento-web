@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#topo {
+  background-color: rgb(255, 198, 27);
+  height: 70px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#menu {
+  background-color: rgb(255, 198, 27);
+  height: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+}
+
+a:link ,a:visited {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(255, 198, 27);
+  background-color: white;
+}
+
+a:active {
+  color: rgb(103, 103, 103);
+  background-color: white;
+}
+
+.font-gray {
+  color: rgb(103, 103, 103);
+}
+
+.font-white {
+  color: white;
+}
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 47px;
+  display: inline;
+}
