@@ -126,16 +126,11 @@ body {
 **** Menu links ****
 */
 
-.area-menu {
-  padding: 9px;
-  /* font-weight: bold; */
-}
-
 .menu-links {
   font-size: 1.2em;
   text-decoration: none;
   font-weight: bold;
-  padding: 8px;
+  padding: 8px 12px;
 }
 
 .menu-links:link, .menu-links:visited{
