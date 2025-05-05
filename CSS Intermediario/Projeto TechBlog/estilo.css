@@ -1,5 +1,23 @@
-body {
+/* body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 47px;
+  display: inline;
+}
+
+h2 {
+  color: rgb(248, 199, 53);
+  padding-bottom: px;
+  border: 1px solid red;
+  margin-top: 0px;
+  margin: 0px;
+}
+
+p {
+  border: 1px solid red;
+  margin: 0px;
 }
 
 #topo {
@@ -9,36 +27,51 @@ body {
   padding-top: 30px;
 }
 
-#menu {
+#corpo {
+  width: 750px;
+  border: 1px solid red;
+  padding-top: 25px;
+  position: relative;
+  left: 200px;
+}
+
+.menu {
   background-color: rgb(255, 198, 27);
-  height: 30px;
   text-align: center;
-  padding-bottom: 30px;
+  padding: 10px;
+
 }
 
-a {
+.link-menu {
+  background-color: rgb(255, 198, 27);
   font-size: 25px;
-  text-decoration: none;
-  font-weight: bold;
   padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
 }
 
-a:link ,a:visited {
+.link-menu:link {
+  color: white
+}
+
+.link-menu:visited {
   color: white;
 }
 
-a:visited {
-  color: white;
-}
-
-a:hover {
+.link-menu:hover {
   color: rgb(255, 198, 27);
   background-color: white;
 }
 
-a:active {
+.link-menu:active {
   color: rgb(103, 103, 103);
   background-color: white;
+}
+
+.link-corpo {
+  color: rgb(255, 198, 27);
+  padding-bottom: 10px;
 }
 
 .font-gray {
@@ -48,11 +81,86 @@ a:active {
 .font-white {
   color: white;
 }
+
+.font-text {
+  font-size: 18px;
+}
+
 .clear {
   clear: both;
 }
 
+.borda {
+  border: 1px solid red;
+} */
+/* Limpar formatações padrões */
+/* seletor asterístico (*) serve para selecionar tudo */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #e6e6e6;
+}
+
+/* 
+**** Layout ****
+*/
+
+#area-cabecalho {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo {
+  padding-bottom: 10px;
+}
+
+
+
+/* 
+**** Menu links ****
+*/
+
+.area-menu {
+  padding: 9px;
+  /* font-weight: bold; */
+}
+
+.menu-links {
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.menu-links:link, .menu-links:visited{
+  color: white;
+}
+
+.menu-links:hover {
+  color: #f7b600;
+  background-color: white;
+}
+
+.menu-links:active {
+  color: black;
+  background-color: white;
+}
+
+/* 
+**** Formatações gerais ****
+*/
+
 h1 {
-  font-size: 47px;
-  display: inline;
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+
+.branco {
+  color: white;
 }
