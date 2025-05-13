@@ -8,7 +8,7 @@
 body {
   font-size: 1em;
   font-family: 'Trebuchet MS - O seu blog de tecnologia', Helvetica, sans-serif;
-  background-color: #e6e6e6;
+  background-color: #f6f6f6;
 }
 
 /* 
@@ -26,6 +26,41 @@ body {
   padding: 10px;
 }
 
+#area-principal {
+  width: 920px;
+  /* usar margin auto é uma forma de deixar o conteúdo centralizado */
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#rodape {
+  background-color: #CCC;
+  clear: both;
+  padding: 15px;
+  text-align: center;
+}
+
+/* obs a soma da area-postagens + area-lateral = 900px sobrará 20 px para separarmos uma da outra  */
+
+#area-postagens, #area-lateral {
+  background-color: pink;
+}
+
+#area-postagens {
+  width: 660px;
+  float: left;
+}
+
+#area-lateral {
+  width: 240px;
+  float: right;
+}
+
+.postagens {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
 
 /* 
 **** Links menu ****
@@ -59,11 +94,27 @@ body {
 **** Geral ****
 */
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 2.5em;
   color: #4e4e4e;
 }
 
+h2 {
+  color: #f7b600;
+}
+
 .font-white {
   color: white;
+}
+
+.data-postagem {
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
 }
