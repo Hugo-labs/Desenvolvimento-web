@@ -1,5 +1,4 @@
-/* Limpar formatações padrões */
-/* * para selecionar tudo */
+/* Limpar formatações padrão */
 * {
   margin: 0;
   padding: 0;
@@ -7,63 +6,27 @@
 
 body {
   font-size: 1em;
-  font-family: 'Trebuchet MS - O seu blog de tecnologia', Helvetica, sans-serif;
-  background-color: #f6f6f6;
+  font-family: 'Trebuchet MS',helvetica, sans-serif;
 }
 
 /* 
 **** Layout ****
 */
 
+
 #area-cabecalho {
   background-color: #f7b600;
   padding: 15px;
   text-align: center;
-  font-size: 1.2em;
 }
 
 #area-logo, #area-menu {
   padding: 10px;
 }
 
-#area-principal {
-  width: 920px;
-  /* usar margin auto é uma forma de deixar o conteúdo centralizado */
-  margin: 0 auto;
-  padding: 15px;
-}
-
-#rodape {
-  background-color: #CCC;
-  clear: both;
-  padding: 15px;
-  text-align: center;
-}
-
-/* obs a soma da area-postagens + area-lateral = 900px sobrará 20 px para separarmos uma da outra  */
-
-#area-postagens, #area-lateral {
-  background-color: pink;
-}
-
-#area-postagens {
-  width: 660px;
-  float: left;
-}
-
-#area-lateral {
-  width: 240px;
-  float: right;
-}
-
-.postagens {
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: white;
-}
 
 /* 
-**** Links menu ****
+**** Formatação Menu ****
 */
 
 .link-menu {
@@ -76,13 +39,10 @@ body {
   color: white;
 }
 
-.link-menu:visited{
-  color: pink;
-}
-
 .link-menu:hover {
   background-color: white;
   color: #f7b600;
+  text-decoration: none;
 }
 
 .link-menu:active {
@@ -91,30 +51,15 @@ body {
 }
 
 /* 
-**** Geral ****
+**** Formatações gerais ****
 */
 
-a {
-  text-decoration: none;
-}
 
 h1 {
-  font-size: 2.5em;
   color: #4e4e4e;
+  font-size: 2.5em;
 }
 
-h2 {
-  color: #f7b600;
-}
-
-.font-white {
+.branco {
   color: white;
-}
-
-.data-postagem {
-  font-size: 0.8em;
-  border-bottom: 1px solid #f4f4f4;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  display: block;
 }
