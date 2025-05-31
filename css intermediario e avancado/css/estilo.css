@@ -88,21 +88,65 @@ a regra mais específica será aplicada
 (terá precedência sobre as regras mais gerais
 ) */
 
-* {
+/* * {
   color: red;
-}
+} */
 
 /* 3 */
-h2 {
+/* h2 {
   color: rebeccapurple;
-}
+} */
 
 /* 2 */
-h2.verde {
+/* h2.verde {
   color: green;
-}
+} */
 
 /* 1 */
-h2#amarelo {
+/* h2#amarelo {
   color: yellow;
+} */
+
+
+
+/* ***********************************
+Navegação vertical */
+
+/* ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  padding: 10px 20px;
+  background: url(../src/seta.png) no-repeat left center;
+} */
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* li {
+  padding: 10px 20px;
+} */
+
+ul a {
+  width: 200px;
+  height: 40px;
+  display: block;
+  background: url(../src/menu.png) no-repeat;
+
+  text-decoration: none;
+  color: black;
+  text-indent: 40px;
+  line-height: 40px;
+  /* font-weight: bold; */
+}
+
+a:hover {
+  background: url(../src/menu.png) no-repeat right bottom;
+  color: #fff;
 }
