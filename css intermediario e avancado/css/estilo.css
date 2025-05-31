@@ -59,9 +59,50 @@ h1+p {
 
 
 /* *********************************** 
-Seletor de irmão geral*/
+Seletor de irmão geral
 
 h1~p {
   color: pink;
-} 
+} */
 
+
+
+/* ***********************************
+Herança e especifidade */
+
+/* body {
+  color: red;
+  border: 1px solid blue;
+} */
+
+/* #pagina p {
+  color: blue !important;
+}
+
+#pagina p {
+  color: red;
+} */
+
+/* Se um seletor for mais específico que outro
+a regra mais específica será aplicada
+(terá precedência sobre as regras mais gerais
+) */
+
+* {
+  color: red;
+}
+
+/* 3 */
+h2 {
+  color: rebeccapurple;
+}
+
+/* 2 */
+h2.verde {
+  color: green;
+}
+
+/* 1 */
+h2#amarelo {
+  color: yellow;
+}
