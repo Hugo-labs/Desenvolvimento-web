@@ -151,3 +151,33 @@ a:hover {
   background-color: #f99200;
   color: #fff;
 }
+
+#home .home a {
+  background: url(../src/menu.png) no-repeat right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
+
+#sobre .sobre a {
+  background: url(../src/menu.png) no-repeat right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
+
+#servicos .servicos a {
+  background: url(../src/menu.png) no-repeat right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
+
+#noticias .noticias a {
+  background: url(../src/menu.png) no-repeat right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
+
+#contato .contato a {
+  background: url(../src/menu.png) no-repeat right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
