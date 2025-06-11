@@ -137,7 +137,7 @@ ul a {
   width: 200px;
   height: 40px;
   display: block;
-  background: url(../src/menu.png) no-repeat;
+  background: #f7b600 url(../src/menu.png) no-repeat;
 
   text-decoration: none;
   color: black;
@@ -148,5 +148,6 @@ ul a {
 
 a:hover {
   background: url(../src/menu.png) no-repeat right bottom;
+  background-color: #f99200;
   color: #fff;
 }
