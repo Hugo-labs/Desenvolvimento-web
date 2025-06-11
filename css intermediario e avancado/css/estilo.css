@@ -152,31 +152,31 @@ a:hover {
   color: #fff;
 }
 
-#home .home a {
+#home #navegacao .home a {
   background: url(../src/menu.png) no-repeat right bottom;
   background-color: #f99200;
   color: #fff;
 }
 
-#sobre .sobre a {
+#sobre #navegacao .sobre a {
   background: url(../src/menu.png) no-repeat right bottom;
   background-color: #f99200;
   color: #fff;
 }
 
-#servicos .servicos a {
+#servicos #navegacao .servicos a {
   background: url(../src/menu.png) no-repeat right bottom;
   background-color: #f99200;
   color: #fff;
 }
 
-#noticias .noticias a {
+#noticias #navegacao .noticias a {
   background: url(../src/menu.png) no-repeat right bottom;
   background-color: #f99200;
   color: #fff;
 }
 
-#contato .contato a {
+#contato #navegacao .contato a {
   background: url(../src/menu.png) no-repeat right bottom;
   background-color: #f99200;
   color: #fff;
