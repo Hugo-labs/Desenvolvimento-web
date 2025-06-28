@@ -1,183 +1,57 @@
-/* *********************************** 
-Seletor universal
-
-* {
-  border: 1px solid red;
-}*/
-
-
-/* *********************************** 
-Seletor de texto
-
-h1 {
-  color: pink;
-}*/
-
-/* *********************************** 
-Seletor de classe
-
-.verde {
-  color: green;
-}
-
-p.verde {
-  color: green;
-} */
-
-
-/* *********************************** 
-Seletor de ID
-
-#cabecalho {
-  border: 1px solid blue;
-} */
-
-
-/* *********************************** 
-Seletor de filho 
-
-li>a {
-  text-decoration: none;
-  font-weight: bold;
-  color: pink;
-}*/
-
-
-/* *********************************** 
-Seletor descendente 
-
-li a {
-  color: green;
-} */
-
-
-/* *********************************** 
-Seletor de irmão adjacente
-h1+p {
-  color: red;
-} */
-
-
-/* *********************************** 
-Seletor de irmão geral
-
-h1~p {
-  color: pink;
-} */
-
-
-
-/* ***********************************
-Herança e especifidade */
-
-/* body {
-  color: red;
-  border: 1px solid blue;
-} */
-
-/* #pagina p {
-  color: blue !important;
-}
-
-#pagina p {
-  color: red;
-} */
-
-/* Se um seletor for mais específico que outro
-a regra mais específica será aplicada
-(terá precedência sobre as regras mais gerais
-) */
-
+/*************************
+Seletor universal */
 /* * {
-  color: red;
+  border: 1px solid red;
 } */
 
-/* 3 */
-/* h2 {
-  color: rebeccapurple;
-} */
 
-/* 2 */
-/* h2.verde {
+/*************************
+Seletor de texto */
+/* h1 {
   color: green;
 } */
 
-/* 1 */
-/* h2#amarelo {
-  color: yellow;
+
+/*************************
+Seletor de classe */
+/* .verde {
+  color: green;
+} */
+
+/* p.verde {
+  color: green;
+} */
+
+/* #cabecalho {
+  border: 1px solid pink;
 } */
 
 
-
-/* ***********************************
-Navegação vertical */
-
-/* ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-li {
-  padding: 10px 20px;
-  background: url(../src/seta.png) no-repeat left center;
-} */
-
-ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-/* li {
-  padding: 10px 20px;
-} */
-
-ul a {
-  width: 200px;
-  height: 40px;
-  display: block;
-  background: #f7b600 url(../src/menu.png) no-repeat;
-
+/*************************
+Seletor de filho */
+/* li>a {
   text-decoration: none;
-  color: black;
-  text-indent: 40px;
-  line-height: 40px;
-  /* font-weight: bold; */
-}
+  color: blue;
+} */
 
-a:hover {
-  background: url(../src/menu.png) no-repeat right bottom;
-  background-color: #f99200;
-  color: #fff;
-}
 
-#home #navegacao .home a {
-  background: url(../src/menu.png) no-repeat right bottom;
-  background-color: #f99200;
-  color: #fff;
-}
+/*************************
+Seletor de descendente */
+/* li a {
+  text-decoration: none;
+  color: blue;
+} */
 
-#sobre #navegacao .sobre a {
-  background: url(../src/menu.png) no-repeat right bottom;
-  background-color: #f99200;
-  color: #fff;
-}
 
-#servicos #navegacao .servicos a {
-  background: url(../src/menu.png) no-repeat right bottom;
-  background-color: #f99200;
-  color: #fff;
-}
+/*************************
+Seletor de irmão adjacente */
+/* h1+p {
+  color: red;
+} */
 
-#noticias #navegacao .noticias a {
-  background: url(../src/menu.png) no-repeat right bottom;
-  background-color: #f99200;
-  color: #fff;
-}
 
-#contato #navegacao .contato a {
-  background: url(../src/menu.png) no-repeat right bottom;
-  background-color: #f99200;
-  color: #fff;
+/*************************
+Seletor de irmão geral*/
+h1~p {
+  color: red;
 }
