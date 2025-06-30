@@ -52,6 +52,44 @@ Seletor de irmão adjacente */
 
 /*************************
 Seletor de irmão geral*/
-h1~p {
+/* h1~p {
   color: red;
+} */
+
+
+/*************************
+Herança e especificidade*/
+
+/* body {
+  color: red;
+  border: 1px solid blue;
+  background-color: whitesmoke;
+} */
+
+/* .pagina {
+  color: pink;
+} */
+
+/* p {
+  color: blue;
+}
+
+p {
+  color: red;
+} */
+
+* {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+h2.verde {
+  color: green;
+}
+
+h2#amarelo {
+  color: yellow;
 }
