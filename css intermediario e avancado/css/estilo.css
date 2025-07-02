@@ -128,5 +128,31 @@ ul a {
 
 ul a:hover {
   background-position: right;
+  /* background-color: #f99200; */
+  color: white;
+}
+
+#home .home a {
+  background-position: right;
+  color: white;
+}
+
+#sobre .sobre a {
+  background-position: right;
+  color: white;
+}
+
+#servicos .servicos a {
+  background-position: right;
+  color: white;
+}
+
+#noticias .noticias a {
+  background-position: right;
+  color: white;
+}
+
+#contato .contato {
+  background-position: right;
   color: white;
 }
